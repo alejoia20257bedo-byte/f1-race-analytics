@@ -179,3 +179,19 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore database files
+data/*.sqlite
+data/*.db
+
+# Ignore Python virtual environments
+venv/
+.venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS auto-generated files
+.DS_Store
+Thumbs.db
