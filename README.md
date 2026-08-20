@@ -30,6 +30,11 @@ Understanding victory conditions and operational efficiency in Formula 1 require
 
 ---
 
+## Launch Streamlit Dashboard
+streamlit run app.py
+
+---
+
 ## 🛠️ Project Architecture & Directory Structure
 
 ```text
