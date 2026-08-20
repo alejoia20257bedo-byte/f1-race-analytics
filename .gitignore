@@ -180,18 +180,15 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Ignore database files
+# Ignore heavy database files
 data/*.sqlite
 data/*.db
 
-# Ignore Python virtual environments
+# Make sure .gitkeep is tracked inside data/
+!data/.gitkeep
+
+# Ignore virtual environments & system checkpoints
 venv/
 .venv/
-env/
-
-# Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# Ignore OS auto-generated files
 .DS_Store
-Thumbs.db
