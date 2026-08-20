@@ -184,11 +184,14 @@ cython_debug/
 data/*.sqlite
 data/*.db
 
-# Make sure .gitkeep is tracked inside data/
+# Make sure directory README and gitkeep files are tracked inside data/
+!data/README.md
 !data/.gitkeep
 
 # Ignore virtual environments & system checkpoints
 venv/
 .venv/
+env/
 .ipynb_checkpoints/
 .DS_Store
+Thumbs.db
